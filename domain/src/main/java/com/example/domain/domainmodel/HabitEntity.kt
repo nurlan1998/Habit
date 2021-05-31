@@ -3,7 +3,7 @@ package com.example.domain.domainmodel
 
 import com.google.gson.annotations.SerializedName
 
-data class HabitBodyItem(
+data class HabitEntity(
     @SerializedName("color")
     val color: Int,
     @SerializedName("count")

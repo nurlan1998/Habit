@@ -40,6 +40,8 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.3.0'
 
+    implementation project(":domain")
+
     // Internet
     def okHttpVersion = '4.7.2'
     def retrofitVersion = '2.9.0'
@@ -48,6 +50,11 @@ dependencies {
     implementation "com.squareup.okhttp3:okhttp:$okHttpVersion"
     implementation "com.squareup.okhttp3:logging-interceptor:$okHttpVersion"
     implementation "com.google.code.gson:gson:2.8.6"
+
+    //Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.4.2'
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.31")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.3.9")
 
     // Dagger
     def daggerVersion = "2.28.3"

@@ -1,4 +1,3 @@
 package com.example.domain.domainmodel
 
-class HabitResult {
-}
+class HabitResult : ArrayList<HabitEntity>()

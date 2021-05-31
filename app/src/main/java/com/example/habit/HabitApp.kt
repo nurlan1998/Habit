@@ -1,6 +1,7 @@
 package com.example.habit
 
 import android.app.Application
+import com.example.data.di.module.NetworkModule
 import com.example.habit.di.component.DaggerAppComponent
 import dagger.android.AndroidInjector
 import dagger.android.DispatchingAndroidInjector

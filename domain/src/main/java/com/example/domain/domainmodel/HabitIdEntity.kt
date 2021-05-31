@@ -1,5 +1,5 @@
 package com.example.domain.domainmodel
 
-data class HabitEntity(
+data class HabitIdEntity(
     var uid: String
 )

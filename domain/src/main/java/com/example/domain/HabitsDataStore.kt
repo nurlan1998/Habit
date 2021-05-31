@@ -1,4 +1,8 @@
 package com.example.domain
 
-class HabitsDataStore {
+import com.example.domain.domainmodel.HabitEntity
+import retrofit2.Response
+
+interface HabitsDataStore {
+    suspend fun getHabits(): List<HabitEntity>
 }

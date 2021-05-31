@@ -1,4 +1,4 @@
-package com.example.data.di.module
+package com.example.habit.di.module
 
 import com.example.data.network.Api
 import com.example.data.repository.HabitsRepositoryImpl
